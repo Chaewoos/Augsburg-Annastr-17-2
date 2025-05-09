@@ -857,51 +857,38 @@ li {
 /* INTERIOR-BLOCK *//* INTERIOR-BLOCK */
 
 /* GRAPHIC-BLOCK *//* GRAPHIC-BLOCK */
-
 .graphic-block {
     width: 100%;
-    max-width: 100vw;
-    height: auto;
+    height: 100%;
     padding-bottom: var(--sd_space-xxxxl);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-
-
 .gb-img img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-
+    max-width: 800px;
 }
 
 .gb-text {
     margin-top: var(--sd_space-xxxl);
-    max-width: 100%;
-    height:auto;
-    text-align: center;
 }
-
 
 .gbt-title {
     max-width: 450px;
     margin-bottom: var(--sd_space-m);
-    text-align: center;
 }
 
 .gbt-text {
     display: flex;
-    max-width: 100%;
+    max-width: 900px;
     gap: var(--sd_space-l);
 }
 
 .gbt-left,
 .gbt-right {
     width: 50%;
-    max-width: 100%;
 }
 
 /* GRAPHIC-BLOCK *//* GRAPHIC-BLOCK */
